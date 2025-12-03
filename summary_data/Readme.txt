@@ -1,0 +1,1 @@
+This folder is used to store intermediate summary statistics from analysis scripts.
