@@ -1,21 +1,21 @@
-# SLDS_human_rest_fMRI
-Multi-level SLDS for human resting state fMRI
+# SLDS for human resting state fMRI
 
-HCP_download_and_preprocessing   
-    scripts to download and preprocess data
+## Folder Descriptions
+#### HCP_download_and_preprocessing     
+-scripts to download and preprocess resting state fMRI data from Human Connectome Project (https://www.humanconnectome.org/storage/app/media/documentation/s1200/HCP_S1200_Release_Reference_Manual.pdf)
 
-model_selection   
-    script to fit 10-fold cross-validation models
-    scripts to choose number of states and number of latent dimensions
+#### model_selection     
+-script to fit cross-validation models  
+-scripts to choose number of states and number of latent dimensions
 
-Final_model        
-    multi-level SLDs model fitted from 500 HCP subjects, used for main results reporting
+#### Final_model          
+-multi-level SLDS model fitted from 500 HCP subjects, used for main results reporting
 
-analysis_scripts
-    scripts to run analysis, summarize from data and the fitted SLDS model, conduct statistical tests, generate figures
+#### analysis_scripts  
+-scripts to run analysis, summarize from data and the fitted SLDS model, conduct statistical tests, generate figures
 
-optimization
-    additional script to fit multi-level slds for fMRI data, based on the original 'ssm' package by Linderman (please also refer to https://github.com/lindermanlab/ssm)
+#### optimization  
+-additional script to fit multi-level slds for fMRI data, based on the original 'ssm' package by Linderman (please also refer to https://github.com/lindermanlab/ssm)
 
 More detailed information can be found in the 'Readme.txt' within individual folder.
 
