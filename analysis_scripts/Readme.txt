@@ -20,8 +20,11 @@ vector_field.ipynb
 Final_Figures.ipynb 
 	Fig.3,4,5,6,7A,8,9,10,11,13,14AB,15B,S3,S5 
 
-ni_plot         
+ni_plot.ipynb	         
 	subcortical visualization 
+
+eigenvalue_test.ipynb
+	test stability of state dynamics
 
 explained_variance_by_state.py
 	one-step explained dynamics (R^2) for each state
